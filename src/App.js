@@ -11,6 +11,7 @@ import Header from './components/Header/Header';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import Footer from './components/Footer/Footer';
 import Projects from './components/Projects/Projects';
+import Blog from './components/Blog/Blog';
 
 function App() {
   return (
@@ -30,6 +31,12 @@ function App() {
             <Route path="/projects">
               <Projects></Projects>
             </Route>
+
+            <Route path="/blog">
+              <Blog></Blog>
+            </Route>
+
+
 
             <Route path="*">
               <PageNotFound></PageNotFound>

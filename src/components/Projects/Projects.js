@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import './Projects.css';
 import { faCalendar } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Loading from '../Loading/Loading';
 import { faGlobe, faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
 
@@ -21,7 +23,7 @@ const Projects = () => {
     }, [])
 
     return (
-        <div className="container">
+        <div className="container px-5">
             {
                 isLoading ?
 
@@ -29,48 +31,39 @@ const Projects = () => {
 
                     :
 
+
                     <div>
-                        <h1 className="fw-bold py-5">PROJECTS {projects.length}</h1>
+                        <h4 className="text-uppercase fw-bold pb-3">Projects: {projects.length}</h4>
+                        {
+                            projects.map(p => <div class="card mb-5 shadow-sm">
+                                <img src={p.image} class="card-img-top" alt="..." />
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">{p.name}</h5>
+                                    <p class="card-text">
+                                        {p.details}
+                                    </p>
+                                    <p class="card-text">
+                                        {p.technology}
+                                    </p>
+                                </div>
+                                <div className="card-footer py-3 bg-white border-top-0 ">
 
-                        <div class="row row-cols-1 row-cols-md-3 g-4">
-
-                            {
-                                projects.map(project => <div class="col">
-                                    <div class="card h-100 ">
-                                        <img src={project?.image} class="card-img-top" alt="..." />
-                                        <div class="card-body  pb-0">
-                                            <p class="card-title fw-bold">{project?.name}</p>
-                                            <p className="text-secondary">
-                                                <small>
-                                                    <span className="me-1"><FontAwesomeIcon icon={faCalendar} /></span>
-                                                    {project?.start}
-                                                    <span className="mx-1"><FontAwesomeIcon icon={faLongArrowAltRight} /></span>
-                                                    {project?.start}
-                                                </small>
-                                            </p>
-                                            <p class="card-text text-secondary">
-                                                {project.details}
-                                            </p>
-                                            <p className="">
-                                                {project.technology}
-                                            </p>
-                                        </div>
-                                        <div className="card-footer py-3 bg-white border-top-0 ">
-                                            <button className="btn btn-outline-dark me-3">
-                                                <FontAwesomeIcon icon={faGlobe} /> Live
-                                            </button>
-                                            <button className="btn btn-outline-dark">
-                                                <FontAwesomeIcon icon={faGithub} /> Code
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>)
-                            }
-
-
-
-                        </div>
+                                    <a href={p.live} target="_blank" rel="noreferrer" className="">
+                                        <button className="btn btn-outline-dark me-3">
+                                            <FontAwesomeIcon icon={faGlobe} /> Live Demo
+                                        </button>
+                                    </a>
+                                    <a href={p.github} target="_blank" rel="noreferrer" className="">
+                                        <button className="btn btn-outline-dark me-3">
+                                            <FontAwesomeIcon icon={faGithub} /> Source Code
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                            )
+                        }
                     </div>
+
             }
         </div>
     );

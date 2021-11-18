@@ -1,34 +1,52 @@
 [
     {
-        "image": "https://i.ibb.co/NyzVqGX/basecamp.png",
-        "name": "basecamp",
-        "start": "May 2021",
-        "end": "Sep 2021",
-        "details": "Training the car to do self-parking using a genetic algorithm",
-        "technology": "JavaScript, React, MongoDB, NodeJS"
+        "image": "https://i.ibb.co/CQsVJ03/In2-Travel-home.png",
+        "name": "TRAVEL T-Shirt",
+        "start": "Nov 2021",
+        "end": "Nov 2021",
+        "details": "Travel T-Shirt MERN Stack website build with React.js along with CRUD and Dashboard functionalities. Google Firebase has been used for user authentication and hosting. For database i have use MongoDB here. Node.js is used in backend.",
+        "technology": "nodejs javascript mongodb reactjs sweetalert2 axios firebase-auth swiper emailjs react-reveal bootstrap5",
+        "live": "https://travelbd-tshirt.web.app/",
+        "github": "https://github.com/taibislamdipu/travelbd-client"
+    },
+    {
+        "image": "https://i.ibb.co/PQ9bwmd/creative-agency.png",
+        "name": "Creative Agency IT Services",
+        "start": "Oct 2020",
+        "end": "Oct 2020",
+        "details": "MERN stack website for Software Company who sales different types of IT services.",
+        "technology": "react nodejs heroku bootstrap firebase mongodb stripe rest-api",
+        "live": "https://react-creative-agency.web.app/",
+        "github": "https://github.com/taibislamdipu/creative-agency-client"
     },
     {
         "image": "https://i.ibb.co/NyzVqGX/basecamp.png",
-        "name": "basecamp",
+        "name": "Basecamp Adventure Ltd.",
         "start": "May 2021",
         "end": "Sep 2021",
-        "details": "Training the car to do self-parking using a genetic algorithm",
-        "technology": "JavaScript, React, MongoDB, NodeJS"
+        "details": "Travelling Basecamp related MERN Stack website build with React.js along with CRUD functionalities. Google Firebase has been used for user authentication.",
+        "technology": "nodejs firebase mongodb reactjs expressjs bootstrap5",
+        "live": "https://basecamp-5a37f.web.app/",
+        "github": "https://github.com/taibislamdipu/basecamp-client"
     },
     {
-        "image": "https://i.ibb.co/NyzVqGX/basecamp.png",
-        "name": "basecamp",
-        "start": "May 2021",
-        "end": "Sep 2021",
-        "details": "Training the car to do self-parking using a genetic algorithm",
-        "technology": "JavaScript, React, MongoDB, NodeJS"
+        "image": "https://i.ibb.co/cgJxZDZ/life-spring.png",
+        "name": "Basecamp Adventure Ltd.        ",
+        "start": "Oct 2021",
+        "end": "Oct 2021",
+        "details": "Medical health related website built with React.js",
+        "technology": "react firebase firebase-auth",
+        "live": "https://github.com/taibislamdipu/life-spring",
+        "github": "https://github.com/taibislamdipu/life-spring"
     },
     {
-        "image": "https://i.ibb.co/NyzVqGX/basecamp.png",
-        "name": "basecamp",
-        "start": "May 2021",
-        "end": "Sep 2021",
-        "details": "Training the car to do self-parking using a genetic algorithm",
-        "technology": "JavaScript, React, MongoDB, NodeJS"
+        "image": "https://i.imgur.com/7mTE2r4.png",
+        "name": "React Online Course App.",
+        "start": "Oct 2021",
+        "end": "Oct 2021",
+        "details": "React Online Course App",
+        "technology": "react",
+        "live": "https://react-online-course-app.netlify.app/",
+        "github": "https://github.com/taibislamdipu/react-online-course"
     }
 ]
