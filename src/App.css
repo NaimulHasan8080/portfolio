@@ -1,6 +1,7 @@
 
 body{
   font-family: 'Open Sans', sans-serif;
+  background-color: white;
 }
 
 .language{
@@ -8,7 +9,17 @@ body{
 }
 
 .cool-link:hover{
-  color: rgb(220, 38, 38) !important;
+  color: #dc2626 !important;
+  transition: 0.2s;
+}
+
+.custom-red-color{
+  color: #dc2626;
+
+}
+.my-border-bottom{
+  border-bottom: 2px solid #dc2626;
+
 }
 
 .cool-link{
@@ -17,6 +28,18 @@ body{
 
 .hero-section{
   text-align: justify;
+}
+
+.hyper-link{
+  text-decoration: none;
+  color: black;
+
+}
+
+.hyper-link:hover{
+  text-decoration: underline;
+  color: #dc2626;
+  transition: 0.2s;
 }
 
 

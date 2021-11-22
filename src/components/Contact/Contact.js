@@ -1,13 +1,12 @@
 import React from 'react';
 
-const Blog = () => {
+const Contact = () => {
     return (
-
         <div className="container px-5">
             <div className="pb-5 pt-3">
                 <h3>
                     <span className="pb-2 custom-red-color my-border-bottom">
-                        Blog
+                        Contact Me
                     </span>
                 </h3>
             </div>
@@ -15,4 +14,4 @@ const Blog = () => {
     );
 };
 
-export default Blog;
+export default Contact;

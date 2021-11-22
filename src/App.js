@@ -10,8 +10,10 @@ import PageNotFound from './components/PageNotFound/PageNotFound';
 import Header from './components/Header/Header';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import Footer from './components/Footer/Footer';
-import Projects from './components/Projects/Projects';
 import Blog from './components/Blog/Blog';
+import AllProjects from './components/AllProjects/AllProjects';
+import AboutMe from './components/AboutMe/AboutMe';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -29,11 +31,19 @@ function App() {
             </Route>
 
             <Route path="/projects">
-              <Projects></Projects>
+              <AllProjects></AllProjects>
             </Route>
 
             <Route path="/blog">
               <Blog></Blog>
+            </Route>
+
+            <Route path="/about">
+              <AboutMe></AboutMe>
+            </Route>
+
+            <Route path="/contact">
+              <Contact></Contact>
             </Route>
 
 

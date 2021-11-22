@@ -5,7 +5,7 @@
         "start": "Nov 2021",
         "end": "Nov 2021",
         "details": "Travel T-Shirt MERN Stack website build with React.js along with CRUD and Dashboard functionalities. Google Firebase has been used for user authentication and hosting. For database i have use MongoDB here. Node.js is used in backend.",
-        "technology": "nodejs javascript mongodb reactjs sweetalert2 axios firebase-auth swiper emailjs react-reveal bootstrap5",
+        "technology": "nodejs javaScript mongodb reactjs sweetalert2 axios firebase-auth swiper emailjs react-reveal bootstrap5",
         "live": "https://travelbd-tshirt.web.app/",
         "github": "https://github.com/taibislamdipu/travelbd-client"
     },
@@ -31,7 +31,7 @@
     },
     {
         "image": "https://i.ibb.co/cgJxZDZ/life-spring.png",
-        "name": "Basecamp Adventure Ltd.        ",
+        "name": "Life Spring Psychiatric Clinic.",
         "start": "Oct 2021",
         "end": "Oct 2021",
         "details": "Medical health related website built with React.js",
@@ -48,5 +48,35 @@
         "technology": "react",
         "live": "https://react-online-course-app.netlify.app/",
         "github": "https://github.com/taibislamdipu/react-online-course"
+    },
+    {
+        "image": "https://i.ibb.co/D9ZVDF8/pc-builder.png",
+        "name": "PC Builder",
+        "start": "Oct 2021",
+        "end": "Oct 2021",
+        "details": "PC Builder App made with React.js",
+        "technology": "react",
+        "live": "https://reactpcbuild.netlify.app/",
+        "github": "https://github.com/taibislamdipu/pc-builder"
+    },
+    {
+        "image": "https://i.ibb.co/YXyxVkp/honda-cbr.png",
+        "name": "Honda CBR 300R",
+        "start": "Sept 2021",
+        "end": "Sept 2021",
+        "details": "Honda CBR 300R Website landing page redesign",
+        "technology": "HTML CSS bootstrap5",
+        "live": "https://taibislamdipu.github.io/honda-cbr/",
+        "github": "https://github.com/taibislamdipu/honda-cbr"
+    },
+    {
+        "image": "https://i.ibb.co/Gt9QG5S/book-archive.png",
+        "name": "Book Archive",
+        "start": "Sept 2021",
+        "end": "Sept 2021",
+        "details": "Search any book",
+        "technology": "HTML CSS bootstrap5 API",
+        "live": "https://taibislamdipu.github.io/book-archive/",
+        "github": "https://github.com/taibislamdipu/book-archive"
     }
 ]
