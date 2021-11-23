@@ -3,12 +3,14 @@ import { faGithub, faLinkedin, faMedium, faStackOverflow } from '@fortawesome/fr
 import { faBriefcase, faCloudDownloadAlt, faMapMarkerAlt, faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
-import dipuImg from '../../../images/web-developer.png'
+import dipuImg from '../../../images/web-developer.png';
+import Flip from 'react-reveal/Flip';
+import Fade from 'react-reveal/Fade';
+
 
 const HeroSection = () => {
     return (
         <div>
-            {/* <div className="container px-5"> */}
             <div className="row d-flex align-items-center py-5">
                 <div className="col-md-3">
                     <div>
@@ -16,12 +18,16 @@ const HeroSection = () => {
                     </div>
                 </div>
                 <div className="col-md-9 ">
-                    <h2 className="fw-bold text-uppercase">Taib Islam Dipu</h2>
-                    <p>
-                        <FontAwesomeIcon icon={faBriefcase} /> Web Developer
+                    <Flip top cascade>
+                        <h2 className="fw-bold text-uppercase">Taib Islam Dipu</h2>
+                    </Flip>
 
-                    </p>
+                    <p><FontAwesomeIcon icon={faBriefcase} /> Web Developer</p>
+
+
                     <p>10+ React.js projects, 5 MERN Stack Projects</p>
+
+
                     {/* <p>
                         <FontAwesomeIcon icon={faMapMarkerAlt} /> Jatrabari, Dhaka
                     </p> */}
@@ -33,11 +39,11 @@ const HeroSection = () => {
                     </p>
 
                     <div>
-                        <button className="btn btn-primary me-2">
+                        <button className="btn btnDwnResume me-2">
                             <FontAwesomeIcon icon={faCloudDownloadAlt} /> Download Resume
 
                         </button>
-                        <button className="btn btn-success">
+                        <button className="btn btnContactMe">
                             <FontAwesomeIcon icon={faPaperPlane} /> Contact Me
 
                         </button>
@@ -60,13 +66,14 @@ const HeroSection = () => {
                 </div>
             </div>
 
-            <div className="">
-                <p className="text-secondary hero-section">
-                    Hi there! I'm Dipu. a MERN Stack Web Application Developer. Complete my BSc in Business Information Technology(BIT) from the University of Greenwich. I have completed 50+ web <Link to='/projects' className="cool-link fw-bold">projects</Link> by using JavaScript, React.js, Node.js, MongoDB and other technologies. I have also solid knowledge of CSS framework like bootstrap, tailwind, material-ui. Outside of programming, I enjoy reading books, arts and gardening.
+            <Fade bottom cascade>
+                <div className="">
+                    <p className="text-secondary hero-section">
+                        Hi there! I'm Dipu. a MERN Stack Web Application Developer. Complete my BSc in Business Information Technology(BIT) from the University of Greenwich. I have completed 50+ web <Link to='/projects' className="cool-link fw-bold">projects</Link> by using JavaScript, React.js, Node.js, MongoDB and other technologies. I have also solid knowledge of CSS framework like bootstrap, tailwind, material-ui. Outside of programming, I enjoy reading books, arts and gardening.
+                    </p>
+                </div>
+            </Fade>
 
-                </p>
-            </div>
-            {/* </div> */}
         </div>
     );
 };

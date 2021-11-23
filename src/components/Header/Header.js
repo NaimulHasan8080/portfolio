@@ -7,9 +7,10 @@ import './Header.css';
 
 const Header = () => {
     return (
+
         <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-white py-4">
-                <div class="container px-5 text-uppercase">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-4">
+                <div class="container text-uppercase">
                     <Link to="/home" className="navbar-brand fw-bold cool-link">Taib Islam Dipu</Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -29,11 +30,13 @@ const Header = () => {
                                     <FontAwesomeIcon icon={faFile} /> Resume
                                 </Link>
                             </li>
+
                             <li class="nav-item">
                                 <Link to="/blog" className="nav-link cool-link">
                                     Blog
                                 </Link>
                             </li>
+
                             <li class="nav-item">
                                 <Link to="/about" class="nav-link cool-link" aria-current="page">
                                     About Me

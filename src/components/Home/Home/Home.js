@@ -6,13 +6,15 @@ import { Link } from 'react-router-dom';
 import dipuImg from '../../../images/web-developer.png'
 import Projects from '../Projects/Projects';
 import HeroSection from '../HeroSection/HeroSection';
+import Footer from '../../Footer/Footer';
 
 const Home = () => {
 
     return (
-        <div className="container px-5">
+        <div className="container">
             <HeroSection></HeroSection>
             <Projects></Projects>
+            {/* <Footer></Footer> */}
         </div>
     );
 };

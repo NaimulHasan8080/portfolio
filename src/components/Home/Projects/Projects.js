@@ -1,14 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import './Projects.css';
-import { faCalendar } from '@fortawesome/free-regular-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Loading from '../../Loading/Loading';
-import { faGlobe, faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 import SingleProject from '../SingleProject/SingleProject';
 import Bounce from "react-reveal/Bounce";
-import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 
 
 const Projects = () => {
@@ -20,15 +16,13 @@ const Projects = () => {
         async function callApi() {
             let data = await fetch('../projects.json');
             data = await data.json();
-            setProjects(data);
+            setProjects(data.slice(0, 5));
             setIsLoading(false);
         }
         callApi();
     }, [])
 
-    console.log(projects)
-    const name = projects.name;
-    console.log(name)
+
 
     return (
         <div className="mt-5">
@@ -44,14 +38,23 @@ const Projects = () => {
                             <h4 className="text-uppercase fw-bold pb-3 text-center">Projects: {projects.length}</h4>
                         </Bounce>
 
-                        <Zoom>
+                        <Fade bottom>
                             {
                                 projects.map(project => <SingleProject p={project}></SingleProject>)
                             }
-                        </Zoom>
+                        </Fade>
+
+                        <div className="text-center pb-5">
+                            <Link to="/projects">
+                                <button className="btn btn-dark">See All Projects</button>
+                            </Link>
+                        </div>
                     </div>
 
+
             }
+
+
         </div>
     );
 };

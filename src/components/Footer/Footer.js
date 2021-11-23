@@ -1,12 +1,10 @@
 import { faGithub, faLinkedin, faMedium, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className="text-center pt-5">
+        <div className="container-fluid text-center py-5 bg-dark">
             <p className="fs-4">
                 <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/taibislamdipu/' className="me-3 cool-link">
                     <FontAwesomeIcon icon={faLinkedin} />
@@ -21,6 +19,7 @@ const Footer = () => {
                     <FontAwesomeIcon icon={faStackOverflow} />
                 </a>
             </p>
+            <p>Develop by Taib Islam Dipu</p>
         </div>
     );
 };

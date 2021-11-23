@@ -25,7 +25,7 @@ const AllProjects = () => {
 
 
     return (
-        <div className="container px-5">
+        <div className="container">
             {
                 isLoading ?
 
@@ -47,9 +47,7 @@ const AllProjects = () => {
                         <div class="row row-cols-1 row-cols-md-3 g-4">
                             <Zoom>
                                 {
-                                    allProjects.map(p => <SingleAllProject p={p}></SingleAllProject>
-
-                                    )
+                                    allProjects.map(project => <SingleAllProject p={project}></SingleAllProject>)
                                 }
                             </Zoom>
                         </div>
