@@ -27,7 +27,7 @@ const Header = () => {
 
                             <li class="nav-item">
                                 <Link to="/resume" className="nav-link cool-link">
-                                    <FontAwesomeIcon icon={faFile} /> Resume
+                                    Resume
                                 </Link>
                             </li>
 

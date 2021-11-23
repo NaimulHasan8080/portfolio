@@ -1,18 +1,20 @@
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faMapMarkerAlt, faPhoneAlt, faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 import React from 'react';
 import MyForm from './MyForm';
+import Flip from 'react-reveal/Flip';
 
 const Contact = () => {
     return (
         <div className="container">
             <div className="pb-5 pt-3">
                 <h3>
-                    <span className="pb-2 custom-red-color my-border-bottom">
-                        <FontAwesomeIcon icon={faPaperPlane} /> Contact Me
-                    </span>
+                    <Flip top cascade>
+                        <span className="pb-2 custom-red-color my-border-bottom">
+                            <FontAwesomeIcon icon={faPaperPlane} /> Contact Me
+                        </span>
+                    </Flip>
                 </h3>
             </div>
 

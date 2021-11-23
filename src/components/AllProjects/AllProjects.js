@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { faGithub, faStaylinked } from '@fortawesome/free-brands-svg-icons';
-import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { faStaylinked } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router-dom';
 import Loading from '../Loading/Loading';
 import SingleAllProject from './SingleAllProject';
 import Zoom from 'react-reveal/Zoom';
+import Flip from 'react-reveal/Flip';
+
 
 const AllProjects = () => {
 
@@ -26,6 +26,16 @@ const AllProjects = () => {
 
     return (
         <div className="container">
+            <div className="pb-5 pt-3">
+                <h3>
+                    <Flip top cascade>
+                        <span className="pb-2 custom-red-color my-border-bottom">
+                            <FontAwesomeIcon icon={faStaylinked} /> All Projects
+                        </span>
+                    </Flip>
+                </h3>
+            </div>
+
             {
                 isLoading ?
 
@@ -35,14 +45,6 @@ const AllProjects = () => {
 
                     <div>
 
-                        <div className="pb-5 pt-3">
-                            <h3>
-                                {/* <span className="border-bottom border-3 pb-2 custom-red-color"> */}
-                                <span className="pb-2 custom-red-color my-border-bottom">
-                                    <FontAwesomeIcon icon={faStaylinked} /> All Projects
-                                </span>
-                            </h3>
-                        </div>
 
                         <div class="row row-cols-1 row-cols-md-3 g-4">
                             <Zoom>

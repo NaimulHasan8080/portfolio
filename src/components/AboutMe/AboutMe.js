@@ -4,6 +4,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import { faFileCode, faIdCard } from '@fortawesome/free-regular-svg-icons';
+import Flip from 'react-reveal/Flip';
 
 
 const AboutMe = () => {
@@ -12,9 +13,11 @@ const AboutMe = () => {
         <div className="container mb-5">
             <div className="pb-5 pt-3">
                 <h3>
-                    <span className="pb-2 custom-red-color my-border-bottom">
-                        <FontAwesomeIcon icon={faUser} /> About Me
-                    </span>
+                    <Flip top cascade>
+                        <span className="pb-2 custom-red-color my-border-bottom">
+                            <FontAwesomeIcon icon={faUser} /> About Me
+                        </span>
+                    </Flip>
                 </h3>
             </div>
 
@@ -173,51 +176,7 @@ const AboutMe = () => {
                                     </div>
                                 </div>
 
-                                {/* 2nd row */}
-                                <div className="row">
-                                    {/* <div className="col flex-column trans-card pb-3">
-                                    <i className="devicon-javascript-plain colored display-4"></i>
-                                    <p className="fw-bold">JavaScript</p>
-                                </div> */}
-                                    {/* <div className="col flex-column trans-card pb-3">
-                                    <i className="devicon-firebase-plain colored display-4"></i>
-                                    <p className="fw-bold">Firebase</p>
-                                </div>
-                                <div className="col flex-column trans-card pb-3">
-                                    <i className="devicon-git-plain-wordmark colored display-4"></i>
-                                    <p className="fw-bold">Git</p>
-                                </div> */}
-                                    {/* <div className="col flex-column trans-card pb-3">
-                                    <i className="devicon-heroku-plain colored display-4"></i>
-                                    <p className="fw-bold">heroku</p>
-                                </div> */}
 
-                                </div>
-
-                                {/* 3rd row */}
-                                {/* <div className="row">
-                                <div className="col flex-column trans-card pb-3">
-                                    <i className="devicon-bootstrap-plain colored display-4"></i>
-                                    <p className="fw-bold">Bootstrap 5</p>
-                                </div>
-
-                                <div className="col flex-column trans-card pb-3">
-                                    <i className="devicon-html5-plain-wordmark colored display-4"></i>
-                                    <p className="fw-bold">HTML5</p>
-                                </div>
-                                <div className="col flex-column trans-card pb-3">
-                                    <i className="devicon-css3-plain-wordmark colored display-4"></i>
-                                    <p className="fw-bold">CSS3</p>
-                                </div>
-                                <div className="col flex-column trans-card pb-3">
-                                    <i className="devicon-sass-original colored display-4"></i>
-                                    <p className="fw-bold">Sass</p>
-                                </div>
-                                <div className="col flex-column trans-card pb-3">
-                                    <i className="devicon-tailwindcss-plain colored display-4"></i>
-                                    <p className="fw-bold">tailwindcss</p>
-                                </div>
-                            </div> */}
 
                                 {/* 4th row */}
                                 <div className="row">

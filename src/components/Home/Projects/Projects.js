@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import SingleProject from '../SingleProject/SingleProject';
 import Bounce from "react-reveal/Bounce";
 import Fade from 'react-reveal/Fade';
+import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 const Projects = () => {
@@ -35,7 +37,7 @@ const Projects = () => {
 
                     <div>
                         <Bounce bottom cascade>
-                            <h4 className="text-uppercase fw-bold pb-3 text-center">Projects: {projects.length}</h4>
+                            <h4 className="text-uppercase fw-bold pb-3 text-center">My Projects</h4>
                         </Bounce>
 
                         <Fade bottom>
@@ -46,7 +48,9 @@ const Projects = () => {
 
                         <div className="text-center pb-5">
                             <Link to="/projects">
-                                <button className="btn btn-dark">See All Projects</button>
+                                <button className="btn btn-dark">
+                                    See All Projects <FontAwesomeIcon icon={faAngleDoubleRight} />
+                                </button>
                             </Link>
                         </div>
                     </div>

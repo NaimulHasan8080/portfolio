@@ -1,6 +1,5 @@
 import React from 'react';
-import { faGithub, faLinkedin, faMedium, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
-import { faBriefcase, faCloudDownloadAlt, faMapMarkerAlt, faPaperPlane } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase, faCloudDownloadAlt, faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 import dipuImg from '../../../images/web-developer.png';
@@ -48,28 +47,13 @@ const HeroSection = () => {
 
                         </button>
                     </div>
-
-                    {/* <p className="fs-4">
-                        <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/taibislamdipu/' className="me-3 cool-link">
-                            <FontAwesomeIcon icon={faLinkedin} />
-                        </a>
-                        <a target="_blank" rel="noreferrer" href='https://github.com/taibislamdipu' className="me-3 cool-link">
-                            <FontAwesomeIcon icon={faGithub} />
-                        </a>
-                        <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/taibislamdipu/' className="me-3 cool-link">
-                            <FontAwesomeIcon icon={faMedium} />
-                        </a>
-                        <a target="_blank" rel="noreferrer" href='https://stackoverflow.com/users/12982145/taib-islam-dipu' className="me-3 cool-link">
-                            <FontAwesomeIcon icon={faStackOverflow} />
-                        </a>
-                    </p> */}
                 </div>
             </div>
 
             <Fade bottom cascade>
                 <div className="">
                     <p className="text-secondary hero-section">
-                        Hi there! I'm Dipu. a MERN Stack Web Application Developer. Complete my BSc in Business Information Technology(BIT) from the University of Greenwich. I have completed 50+ web <Link to='/projects' className="cool-link fw-bold">projects</Link> by using JavaScript, React.js, Node.js, MongoDB and other technologies. I have also solid knowledge of CSS framework like bootstrap, tailwind, material-ui. Outside of programming, I enjoy reading books, arts and gardening.
+                        Hi there! I'm Dipu. a MERN Stack Web Application Developer. Complete my BSc in Information Technology(IT) from the University of Greenwich. I have completed 50+ web <Link to='/projects' className="cool-link fw-bold">projects</Link> by using JavaScript, React.js, Node.js, MongoDB and other technologies. I have also solid knowledge of CSS framework like bootstrap, tailwind, material-ui. Outside of programming, I enjoy reading books, arts and gardening.
                     </p>
                 </div>
             </Fade>
