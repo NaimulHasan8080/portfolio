@@ -18,13 +18,13 @@ const HeroSection = () => {
                 </div>
                 <div className="col-md-9 ">
                     <Flip top cascade>
-                        <h2 className="fw-bold text-uppercase">Taib Islam Dipu</h2>
+                        <h2 className="fw-bold text-uppercase">Taib Islam</h2>
                     </Flip>
 
-                    <p><FontAwesomeIcon icon={faBriefcase} /> Web Developer</p>
+                    <p><FontAwesomeIcon icon={faBriefcase} /> React Developer</p>
 
 
-                    <p>10+ React.js projects, 5 MERN Stack Projects</p>
+                    <p>10+ React.js projects, 7 MERN Stack Projects</p>
 
 
                     {/* <p>
@@ -42,10 +42,11 @@ const HeroSection = () => {
                             <FontAwesomeIcon icon={faCloudDownloadAlt} /> Download Resume
 
                         </button>
-                        <button className="btn btnContactMe">
-                            <FontAwesomeIcon icon={faPaperPlane} /> Contact Me
-
-                        </button>
+                        <Link to='/contact'>
+                            <button className="btn btnContactMe">
+                                <FontAwesomeIcon icon={faPaperPlane} /> Contact Me
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>

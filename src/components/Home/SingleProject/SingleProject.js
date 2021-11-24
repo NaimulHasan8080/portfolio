@@ -17,6 +17,11 @@ const SingleProject = ({ p }) => {
                 <img src={p.image} class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title fw-bold">{p.name}</h5>
+                    <p className="text-secondary">
+                        <small>
+                            <FontAwesomeIcon icon={faCalendar} /> {p.start} <FontAwesomeIcon icon={faLongArrowAltRight} />  {p.end}
+                        </small>
+                    </p>
                     <p class="card-text">
                         {p.details}
                     </p>

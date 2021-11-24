@@ -7,6 +7,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { HashLink } from 'react-router-hash-link';
 
 const Footer = () => {
+
+    const resumeUrl = 'https://drive.google.com/file/d/1GIP_G1_AamlOOgLEPibqeSUPAHW0W8iP/view?usp=sharing'
+
+
     return (
         <div className="">
             <footer className="mt-5 bg-dark">
@@ -23,7 +27,7 @@ const Footer = () => {
                                         <FontAwesomeIcon icon={faPhoneAlt} /> +8801675884882
                                     </p>
                                     <p>
-                                        <FontAwesomeIcon icon={faEnvelope} /> webdevs.dipu@gmail.com
+                                        <FontAwesomeIcon icon={faEnvelope} /> mailtaibislam@gmail.com
                                     </p>
 
                                 </div>
@@ -42,11 +46,11 @@ const Footer = () => {
                             <div className="col-lg-3 col-sm-6 footer-menus">
                                 <h4 className="text-uppercase fw-bold">Site Map</h4>
                                 <ul>
-                                    <li><i className="fas fa-check"></i> <HashLink as={HashLink} to="/projects">My Projects</HashLink></li>
-                                    <li><i className="fas fa-check"></i> <HashLink as={HashLink} to="/">Online Resume</HashLink></li>
-                                    <li><i className="fas fa-check"></i> <HashLink as={HashLink} to="/blog">Blogs</HashLink></li>
-                                    <li><i className="fas fa-check"></i> <HashLink as={HashLink} to="/about">About Me</HashLink></li>
-                                    <li><i className="fas fa-check"></i> <HashLink as={HashLink} to="/contact">Contact Me</HashLink></li>
+                                    <li><HashLink as={HashLink} to="/projects">My Projects</HashLink></li>
+                                    <li><a href={resumeUrl} target="_blank" rel="noreferrer">Online Resume</a></li>
+                                    <li><HashLink as={HashLink} to="/blog">Blogs</HashLink></li>
+                                    <li><HashLink as={HashLink} to="/about">About Me</HashLink></li>
+                                    <li><HashLink as={HashLink} to="/contact">Contact Me</HashLink></li>
                                 </ul>
 
                             </div>
@@ -74,7 +78,7 @@ const Footer = () => {
                                 <p>
                                     Site Code & designed by <a
                                         href="https://github.com/taibislamdipu" target="_blank" rel="noreferrer" title="My GitHub Repo">
-                                        <span className="text-white">Taib Islam Dipu</span></a>
+                                        <span className="text-white cool-link">Taib Islam Dipu</span></a>
                                 </p>
                             </div>
                         </div>
