@@ -30,7 +30,7 @@ const Contact = () => {
                     <div className="mt-4 ">
                         <p><FontAwesomeIcon icon={faMapMarkerAlt} /> Jatrabari, Dhaka-1236, Bangladesh.</p>
                         <p><FontAwesomeIcon icon={faPhoneAlt} /> +8801675884882</p>
-                        <p><FontAwesomeIcon icon={faEnvelope} /> webdevs.dipu@gmail.com</p>
+                        <p><FontAwesomeIcon icon={faEnvelope} /> mailtaibislam@gmail.com</p>
 
                         <p>
                             <a href="https://www.linkedin.com/in/taibislamdipu/" rel="noreferrer" target="_blank" className="btn btn-linkedIn me-2 ">
