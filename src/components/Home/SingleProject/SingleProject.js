@@ -1,10 +1,8 @@
 import React from 'react';
 import { faCalendar } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Loading from '../../Loading/Loading';
 import { faGlobe, faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { Link } from 'react-router-dom';
 
 const SingleProject = ({ p }) => {
 
@@ -46,14 +44,25 @@ const SingleProject = ({ p }) => {
 
                     <a href={p.live} target="_blank" rel="noreferrer" className="">
                         <button className="btn btn-outline-dark me-3">
-                            <FontAwesomeIcon icon={faGlobe} /> Live Demo
+                            <FontAwesomeIcon icon={faGlobe} /> Live Website
                         </button>
                     </a>
                     <a href={p.github} target="_blank" rel="noreferrer" className="">
                         <button className="btn btn-outline-dark me-3">
-                            <FontAwesomeIcon icon={faGithub} /> Source Code
+                            <FontAwesomeIcon icon={faGithub} /> Client GitHub
                         </button>
                     </a>
+
+                    {
+                        p.server &&
+
+                        <a href={p.server} target="_blank" rel="noreferrer" className="">
+                            <button className="btn  btn-outline-dark me-3">
+                                <FontAwesomeIcon icon={faGithub} /> Server GitHub
+                            </button>
+                        </a>
+
+                    }
                 </div>
             </div>
         </div>

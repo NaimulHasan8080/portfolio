@@ -1,4 +1,4 @@
-import { faBriefcase, faCloudDownloadAlt, faCode, faLanguage, faPaperPlane, faUser, faUserGraduate } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase, faCode, faLanguage, faUser, faUserGraduate } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -50,7 +50,7 @@ const AboutMe = () => {
                                 {/* <p>Front-End Web Developer using React.js with a decent knowledge of the backend technology like Node.js, Express.js, MongoDB, REST-API, JSON, Firebase, Debugging and more.</p> */}
 
                                 <p style={{ textAlign: 'justify' }}>
-                                    Hi, I am Dipu, MERN Stack Web Application Developer. Complete my BSc in Information Technology(IT) from the University of Greenwich. Completed 20+ React.js projects, along with several complete MERN Stack Projects. All projects link is available <Link to="/projects">here</Link>. Outside of programming, I enjoy reading books, arts and gardening.
+                                    I have completed my bachelor’s degree in Information Technology (IT) from the University Of Greenwich. Besides my education, I have done several MERN Stack <Link to="/projects">projects</Link> using React, Bootstrap, Tailwind, JavaScript, Node.js, MongoDB etc. As a  Front-End React Developer position my keen attention to detail and designing knowledge will be an added advantage for me to serve any company with a quality service.
                                 </p>
                             </div>
                         </div>
@@ -218,6 +218,44 @@ const AboutMe = () => {
                         </div>
                     </section>
                 </Fade>
+
+                <hr />
+
+                <Fade bottom >
+                    <section className="about-section" >
+                        <div className="row">
+                            <div className="col-md-4">
+                                <p className="fw-bold">
+                                    <FontAwesomeIcon icon={faBriefcase} /> Professional Training
+                                </p>
+                            </div>
+
+                            <div className="col-md">
+
+                                <div className="d-flex justify-content-between">
+                                    <p className=""><b>1. Complete Web Development Course</b>/ Programming Hero</p>
+                                    <p className="">Jun 2021 - Dec 2021</p>
+                                </div>
+
+                                <div className="d-flex justify-content-between">
+                                    <p className=""><b>2. Penetration testing CEH v9</b>/ DIPTI</p>
+                                    <p className="">Oct 2021 - Dec 2018</p>
+                                </div>
+
+                                <div className="d-flex justify-content-between">
+                                    <p className=""><b>3. Workshop on Augmented Reality</b>/ DIU - AR Project Demo - <a href="https://youtu.be/eVakwz95JKA" target="_blank" rel="noreferrer">YouTube</a>
+                                    </p>
+                                    <p className="">2018</p>
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+                    </section>
+                </Fade>
+
                 <hr />
 
                 <Fade bottom >
@@ -230,16 +268,6 @@ const AboutMe = () => {
                             </div>
 
                             <div className="col-md">
-                                {/* <p className="float-end">JULY 2020 - CURRENT</p>
-                            <h4>1. Web Application Development</h4>
-                            <p className="text-secondary">Self Employed</p>
-
-                            <ul>
-                                <li className="mt-2">MERN Stack Web Application Development.</li>
-                                <li className="mt-2">Different types of Database Management.</li>
-                                <li className="mt-2">Front-end & Back-end technologies.</li>
-                            </ul> */}
-
 
                                 <p className="float-end">MAR 2019 - AUG 2020</p>
                                 <p className="fw-bold my-0">1. Search Engine Optimization (SEO)</p>
@@ -296,6 +324,7 @@ const AboutMe = () => {
                         </div>
                     </section>
                 </Fade>
+
             </div>
 
 

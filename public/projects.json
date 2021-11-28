@@ -7,7 +7,8 @@
         "details": "Travel T-Shirt MERN Stack website build with React.js along with CRUD and Dashboard functionalities. Google Firebase has been used for user authentication and hosting. For database i have use MongoDB here. Node.js is used in backend.",
         "technology": "nodejs javaScript mongodb reactjs sweetalert2 axios firebase-auth swiper emailjs react-reveal bootstrap5",
         "live": "https://travelbd-tshirt.web.app/",
-        "github": "https://github.com/taibislamdipu/travelbd-client"
+        "github": "https://github.com/taibislamdipu/travelbd-client",
+        "server": "https://github.com/taibislamdipu/travelbd-server"
     },
     {
         "image": "https://i.ibb.co/PQ9bwmd/creative-agency.png",
@@ -17,7 +18,8 @@
         "details": "MERN stack website for Software Company who sales different types of IT services.",
         "technology": "react nodejs heroku bootstrap firebase mongodb stripe rest-api",
         "live": "https://react-creative-agency.web.app/",
-        "github": "https://github.com/taibislamdipu/creative-agency-client"
+        "github": "https://github.com/taibislamdipu/creative-agency-client",
+        "server": "https://github.com/taibislamdipu/creative-agency-server"
     },
     {
         "image": "https://i.ibb.co/NyzVqGX/basecamp.png",
@@ -27,7 +29,18 @@
         "details": "Travelling Basecamp related MERN Stack website build with React.js along with CRUD functionalities. Google Firebase has been used for user authentication.",
         "technology": "nodejs firebase mongodb reactjs expressjs bootstrap5",
         "live": "https://basecamp-5a37f.web.app/",
-        "github": "https://github.com/taibislamdipu/basecamp-client"
+        "github": "https://github.com/taibislamdipu/basecamp-client",
+        "server": "https://github.com/taibislamdipu/basecamp-server"
+    },
+    {
+        "image": "https://i.ibb.co/vZ2rr6K/React-Travel-Gur.png",
+        "name": "Travel Guru",
+        "start": "Oct 2020",
+        "end": "Oct 2020",
+        "details": "A hotel booking website based on the place you want to visit. The system will recommend available hotels near your travel destination for booking.",
+        "technology": "React Bootstrap Firebase Api",
+        "live": "https://react-travel-guru-v2.web.app/",
+        "github": "https://github.com/taibislamdipu/react-travel-guru-v2"
     },
     {
         "image": "https://i.ibb.co/cgJxZDZ/life-spring.png",
@@ -60,6 +73,17 @@
         "github": "https://github.com/taibislamdipu/pc-builder"
     },
     {
+        "image": "https://i.ibb.co/7WvXGzZ/React-Volunteer.png",
+        "name": "Volunteer Network",
+        "start": "Oct 2021",
+        "end": "Oct 2021",
+        "details": "MERN stack website for volunteer organizations who manage different types of volunteer activities",
+        "technology": "React Nodejs Bootstrap Mongodb Express.js",
+        "live": "https://volunteer-network-auth-b52c8.web.app/",
+        "github": "https://github.com/taibislamdipu/volunteer-network-client",
+        "server": "https://github.com/taibislamdipu/volunteer-network-server"
+    },
+    {
         "image": "https://i.ibb.co/YXyxVkp/honda-cbr.png",
         "name": "Honda CBR 300R",
         "start": "Sept 2021",
@@ -78,5 +102,85 @@
         "technology": "HTML CSS bootstrap5 API",
         "live": "https://taibislamdipu.github.io/book-archive/",
         "github": "https://github.com/taibislamdipu/book-archive"
+    },
+    {
+        "image": "https://i.ibb.co/nfkXzzm/React-Meal-DB-App.png",
+        "name": "The Meal DB",
+        "start": "Sept 2021",
+        "end": "Sept 2021",
+        "details": "Search any food",
+        "technology": "React API Bootstrap",
+        "live": "https://reactmealdb.netlify.app/",
+        "github": "https://github.com/taibislamdipu/mealdb"
+    },
+    {
+        "image": "https://i.ibb.co/F6YtSB0/Mac-Book-pro.png",
+        "name": "MacBook Pro",
+        "start": "Aug 2021",
+        "end": "Aug 2021",
+        "details": "MacBook customization",
+        "technology": "HTML CSS JavaScript Bootstrap",
+        "live": "https://taibislamdipu.github.io/mac-book-pro/",
+        "github": "https://github.com/taibislamdipu/mac-book-pro"
+    },
+    {
+        "image": "https://i.ibb.co/5kNrs9d/Nike-React.png",
+        "name": "Nike",
+        "start": "Aug 2021",
+        "end": "Aug 2021",
+        "details": "E-commerce website landing page",
+        "technology": "Tailwind CSS HTML CSS",
+        "live": "https://taibislamdipu.github.io/nike-react/",
+        "github": "https://github.com/taibislamdipu/nike-react"
+    },
+    {
+        "image": "https://i.ibb.co/TYGLjHB/Penguin-Fashion.png",
+        "name": "Penguin Fashion",
+        "start": "Aug 2021",
+        "end": "Aug 2021",
+        "details": "E-commerce website landing page",
+        "technology": "Tailwind CSS HTML CSS",
+        "live": "https://taibislamdipu.github.io/penguin-fashion-tailwind/index.html",
+        "github": "https://github.com/taibislamdipu/penguin-fashion-tailwind"
+    },
+    {
+        "image": "https://i.ibb.co/sVVYq7S/Football-Zone.png",
+        "name": "Football Zone",
+        "start": "Jul 2021",
+        "end": "Jul 2021",
+        "details": "Responsive sports related web layout using only HTML & CSS.",
+        "technology": "Media-Queries HTML CSS",
+        "live": "https://taibislamdipu.github.io/football-zone/",
+        "github": "https://github.com/taibislamdipu/football-zone"
+    },
+    {
+        "image": "https://i.ibb.co/zQzsz9N/Food-Network.png",
+        "name": "Food Network",
+        "start": "Jul 2021",
+        "end": "Jul 2021",
+        "details": "A food nutritionist website contains their social links, recipes, contact details and more.",
+        "technology": "Bootstrap, HTML CSS",
+        "live": "https://taibislamdipu.github.io/food-network/",
+        "github": "https://github.com/taibislamdipu/food-network"
+    },
+    {
+        "image": "https://i.ibb.co/xhtTdWL/Panda-Commerce-1.png",
+        "name": "Panda Commerce",
+        "start": "May 2021",
+        "end": "May 2021",
+        "details": "E-commerce website landing page",
+        "technology": "Bootstrap, HTML CSS",
+        "live": "https://taibislamdipu.github.io/panda-commerce-v3/index.html",
+        "github": "https://github.com/taibislamdipu/panda-commerce-v3"
+    },
+    {
+        "image": "https://i.ibb.co/2MRwJsp/covid-19-live-tracker-preview.png",
+        "name": "Covid19 Tracker",
+        "start": "Aug 2020",
+        "end": "Aug 2020",
+        "details": "🌎 Covid-19 Case Status Tracker.",
+        "technology": "HTML CSS Api Bootstrap",
+        "live": "https://taibislamdipu.github.io/covid19-traker/",
+        "github": "https://github.com/taibislamdipu/covid19-traker"
     }
 ]

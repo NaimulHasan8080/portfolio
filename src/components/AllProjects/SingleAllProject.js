@@ -1,8 +1,7 @@
 import React from 'react';
-import { faGithub, faStaylinked } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe, faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router-dom';
 import { faCalendar } from '@fortawesome/free-regular-svg-icons';
 
 const SingleAllProject = ({ p }) => {
@@ -45,21 +44,37 @@ const SingleAllProject = ({ p }) => {
                         }
                     </p>
                 </div>
+
+
+
+
                 <div className="card-footer pb-4 bg-white border-top-0 ">
 
-                    <a href={p.live} target="_blank" rel="noreferrer" className="">
-                        <button className="btn btn-sm btn-outline-dark me-3">
-                            <FontAwesomeIcon icon={faGlobe} /> Live Demo
-                        </button>
+                    <a href={p.live} target="_blank" rel="noreferrer" className="btn btn-sm btn-outline-dark me-3" type="button">
+                        <FontAwesomeIcon icon={faGlobe} /> Live Website
                     </a>
+
 
                     <a href={p.github} target="_blank" rel="noreferrer" className="">
                         <button className="btn btn-sm btn-outline-dark me-3">
-                            <FontAwesomeIcon icon={faGithub} /> Source Code
+                            <FontAwesomeIcon icon={faGithub} /> Client GitHub
                         </button>
                     </a>
 
+                    {
+                        p.server &&
+
+                        <a href={p.server} target="_blank" rel="noreferrer" className="">
+                            <button className="btn btn-sm btn-outline-dark mt-3">
+                                <FontAwesomeIcon icon={faGithub} /> Server GitHub
+                            </button>
+                        </a>
+                    }
+
+
+
                 </div>
+
 
             </div>
 

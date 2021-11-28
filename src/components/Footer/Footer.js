@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { faFacebook, faGithub, faLinkedin, faMedium, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faMapMarkerAlt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -78,7 +78,7 @@ const Footer = () => {
                                 <p>
                                     Site Code & designed by <a
                                         href="https://github.com/taibislamdipu" target="_blank" rel="noreferrer" title="My GitHub Repo">
-                                        <span className="text-white cool-link">Taib Islam Dipu</span></a>
+                                        <span className="text-white cool-link">Taib Islam</span></a>
                                 </p>
                             </div>
                         </div>

@@ -21,10 +21,10 @@ const HeroSection = () => {
                         <h2 className="fw-bold text-uppercase">Taib Islam</h2>
                     </Flip>
 
-                    <p><FontAwesomeIcon icon={faBriefcase} /> React Developer</p>
+                    <p><FontAwesomeIcon icon={faBriefcase} /> Front End React Developer</p>
 
 
-                    <p>10+ React.js projects, 7 MERN Stack Projects</p>
+                    <p>10+ web projects, 5+ MERN Stack Projects</p>
 
 
                     {/* <p>
@@ -38,10 +38,9 @@ const HeroSection = () => {
                     </p>
 
                     <div>
-                        <button className="btn btnDwnResume me-2">
+                        <a href="https://drive.google.com/uc?export=download&id=1GIP_G1_AamlOOgLEPibqeSUPAHW0W8iP" type="button" className="btn btnDwnResume me-2">
                             <FontAwesomeIcon icon={faCloudDownloadAlt} /> Download Resume
-
-                        </button>
+                        </a>
                         <Link to='/contact'>
                             <button className="btn btnContactMe">
                                 <FontAwesomeIcon icon={faPaperPlane} /> Contact Me
@@ -54,7 +53,7 @@ const HeroSection = () => {
             <Fade bottom cascade>
                 <div className="">
                     <p className="text-secondary hero-section">
-                        Hi there! I'm Dipu. a MERN Stack Web Application Developer. Complete my BSc in Information Technology(IT) from the University of Greenwich. I have completed 50+ web <Link to='/projects' className="cool-link fw-bold">projects</Link> by using JavaScript, React.js, Node.js, MongoDB and other technologies. I have also solid knowledge of CSS framework like bootstrap, tailwind, material-ui. Outside of programming, I enjoy reading books, arts and gardening.
+                        Hi there! I'm Dipu. a MERN Stack Web Application Developer. I have Complete my BSc in Information Technology(IT) from the University of Greenwich. I have experience of 15+ web <Link to='/projects' className="cool-link fw-bold">projects</Link> by using JavaScript, React.js, Node.js, MongoDB and other technologies. I have also solid knowledge of CSS framework like bootstrap, tailwind, material-ui. Outside of programming, I enjoy reading books, arts and gardening.
                     </p>
                 </div>
             </Fade>

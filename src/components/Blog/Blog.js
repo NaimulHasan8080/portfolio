@@ -47,7 +47,7 @@ const Blog = () => {
                             blogs.map(blog => <div className="row mb-5 py-5 px-3 shadow rounded">
 
                                 <div className="col-md-6">
-                                    <p className="lead">{blog.title}</p>
+                                    <h4>{blog.title}</h4>
                                     <p className="text-secondary">{blog.subheading}</p>
                                     <p className="text-secondary" style={{ fontSize: '12px' }}>{blog.publishDate}</p>
                                     <a href={blog.readMore} target="_blank" rel="noreferrer" className="btn btn-outline-dark mr-3 font-weight-bold">
