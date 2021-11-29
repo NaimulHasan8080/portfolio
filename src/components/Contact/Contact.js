@@ -1,4 +1,4 @@
-import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faMapMarkerAlt, faPhoneAlt, faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
@@ -28,19 +28,19 @@ const Contact = () => {
                     <hr />
 
                     <div className="mt-4 ">
-                        <p><FontAwesomeIcon icon={faMapMarkerAlt} /> Jatrabari, Dhaka-1236, Bangladesh.</p>
-                        <p><FontAwesomeIcon icon={faPhoneAlt} /> +8801675884882</p>
-                        <p><FontAwesomeIcon icon={faEnvelope} /> mailtaibislam@gmail.com</p>
+                        <p><FontAwesomeIcon icon={faMapMarkerAlt} /> Maynamoti-3521,Cumilla, Bangladesh.</p>
+                        <p><FontAwesomeIcon icon={faPhoneAlt} /> +8801402724004</p>
+                        <p><FontAwesomeIcon icon={faEnvelope} /> nadimur.rahman8080@gmail.com</p>
 
                         <p>
-                            <a href="https://www.linkedin.com/in/taibislamdipu/" rel="noreferrer" target="_blank" className="btn btn-linkedIn me-2 ">
+                            <a href="https://www.linkedin.com/in/nadimurrahman8080/" rel="noreferrer" target="_blank" className="btn btn-linkedIn me-2 ">
                                 <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
                             </a>
-                            <a href="https://github.com/taibislamdipu" rel="noreferrer" target="_blank" className="btn btn-github me-2">
+                            <a href="https://github.com/NaimulHasan8080" rel="noreferrer" target="_blank" className="btn btn-github me-2">
                                 <FontAwesomeIcon icon={faGithub} /> GitHub
                             </a>
-                            <a href="https://twitter.com/taibislamdipu" rel="noreferrer" target="_blank" className="btn btn-twitter me-2">
-                                <FontAwesomeIcon icon={faTwitter} /> Twitter
+                            <a href="https://www.facebook.com/profile.php?id=100008151618032" rel="noreferrer" target="_blank" className="btn btn-twitter me-2">
+                                <FontAwesomeIcon icon={faFacebook} /> Facebook
                             </a>
                         </p>
                     </div>

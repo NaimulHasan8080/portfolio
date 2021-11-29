@@ -50,7 +50,7 @@ const AboutMe = () => {
                                 {/* <p>Front-End Web Developer using React.js with a decent knowledge of the backend technology like Node.js, Express.js, MongoDB, REST-API, JSON, Firebase, Debugging and more.</p> */}
 
                                 <p style={{ textAlign: 'justify' }}>
-                                    I have completed my bachelor’s degree in Information Technology (IT) from the University Of Greenwich. Besides my education, I have done several MERN Stack <Link to="/projects">projects</Link> using React, Bootstrap, Tailwind, JavaScript, Node.js, MongoDB etc. As a  Front-End React Developer position my keen attention to detail and designing knowledge will be an added advantage for me to serve any company with a quality service.
+                                    I passed Inter and got admission in Redyan College in BBA with Accounting. After studying there for 1 year, due to family crisis, I went back to Saudi Arabia for work.From there I come to the country on vacation before Corona but I can't go for Corona anymore. Then on the advice of cousin <a target="_blank" style={{ textDecoration: 'none' }} href="https://www.facebook.com/ikamal.me"><span className="text-bold fs-5">Kamal</span></a> I learned web development from programming hero.
                                 </p>
                             </div>
                         </div>
@@ -71,21 +71,25 @@ const AboutMe = () => {
 
                             <div className="col-md-8">
                                 <div>
-                                    <p className="fw-bold my-0">University of Greenwich</p>
-                                    <p>BS'c in Information Technology (IT) </p>
+                                    <p className="fw-bold my-0">Rampur High School</p>
+                                    <p>Secondary School Certificate (SSC)</p>
                                     <ul>
-                                        <li>Passing Year: 2021 </li>
-                                        <li>Result: 1st Class </li>
+                                        <li>Passing Year: 2013 </li>
+                                        <li>Result: GPA 4.94 </li>
                                     </ul>
                                 </div>
-
-
-
-
-                                {/* <ul>
-                                <li className="mt-2">Bachelor's degree in Information Technology/ University of Greenwich</li>
-                                <li className="mt-2">Higher Secondary School Certificate/ Ideal College, Dhaka, Bangladesh.</li>
-                            </ul> */}
+                                <div>
+                                    <p className="fw-bold my-0">Cantonment College, Cumilla</p>
+                                    <p> Higher Secondary School Certificate (HSC)</p>
+                                    <ul>
+                                        <li>Passing Year: 2015 </li>
+                                        <li>Result: GPA 4.25 </li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <p className="fw-bold my-0">Chandina Redwan Ahmed University College</p>
+                                    <p>BBA (Accounting) </p>
+                                </div>
                             </div>
                         </div>
                     </section>
@@ -143,16 +147,9 @@ const AboutMe = () => {
                                         <p className="fw-bold">CSS3</p>
                                     </div>
                                     <div className="col flex-column trans-card pb-3">
-                                        <i className="devicon-sass-original colored display-4"></i>
-                                        <p className="fw-bold">Sass</p>
-                                    </div>
-                                    <div className="col flex-column trans-card pb-3">
                                         <i className="devicon-tailwindcss-plain colored display-4"></i>
                                         <p className="fw-bold">Tailwind CSS</p>
                                     </div>
-                                </div>
-
-                                <div className="row">
                                     <div className="col flex-column trans-card pb-3">
                                         <i className="devicon-materialui-plain colored display-4"></i>
                                         <p className="fw-bold">Material UI</p>
@@ -162,62 +159,13 @@ const AboutMe = () => {
                                         <i className="devicon-git-plain-wordmark colored display-4"></i>
                                         <p className="fw-bold">Git</p>
                                     </div>
-                                    <div className="col flex-column trans-card pb-3">
-                                        {/* <i className="devicon-git-plain-wordmark colored display-4"></i>
-                                    <p className="fw-bold">Git</p> */}
-                                    </div>
-                                    <div className="col flex-column trans-card pb-3">
-                                        {/* <i className="devicon-git-plain-wordmark colored display-4"></i>
-                                    <p className="fw-bold">Git</p> */}
-                                    </div>
-                                    <div className="col flex-column trans-card pb-3">
-                                        {/* <i className="devicon-git-plain-wordmark colored display-4"></i>
-                                    <p className="fw-bold">Git</p> */}
-                                    </div>
                                 </div>
-
-
-
-                                {/* 4th row */}
-                                <div className="row">
-
-                                </div>
-
-
                             </div>
                         </div>
                     </section>
                 </Fade>
 
                 <hr />
-
-                <Fade bottom >
-                    <section className="about-section" >
-                        <div className="row">
-                            <div className="col-md-4">
-                                <p className="fw-bold">
-                                    <FontAwesomeIcon icon={faFileCode} /> Other Skills
-                                </p>
-                            </div>
-
-                            <div className="col-md-4">
-                                <ul>
-                                    <li className="mt-2">Agile Methodology</li>
-                                    <li className="mt-2">UX/UI</li>
-                                    <li className="mt-2">Debugging</li>
-                                    <li className="mt-2">REST APIs</li>
-                                    <li className="mt-2">ES6</li>
-                                    <li className="mt-2">Google Analytics</li>
-                                    <li className="mt-2">Asana</li>
-                                    <li className="mt-2">Cyber Security</li>
-                                    <li className="mt-2">SEO</li>
-                                    <li className="mt-2">Magento 2</li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                </Fade>
 
                 <hr />
 
@@ -236,20 +184,6 @@ const AboutMe = () => {
                                     <p className=""><b>1. Complete Web Development Course</b>/ Programming Hero</p>
                                     <p className="">Jun 2021 - Dec 2021</p>
                                 </div>
-
-                                <div className="d-flex justify-content-between">
-                                    <p className=""><b>2. Penetration testing CEH v9</b>/ DIPTI</p>
-                                    <p className="">Oct 2021 - Dec 2018</p>
-                                </div>
-
-                                <div className="d-flex justify-content-between">
-                                    <p className=""><b>3. Workshop on Augmented Reality</b>/ DIU - AR Project Demo - <a href="https://youtu.be/eVakwz95JKA" target="_blank" rel="noreferrer">YouTube</a>
-                                    </p>
-                                    <p className="">2018</p>
-                                </div>
-
-
-
                             </div>
 
                         </div>
@@ -257,55 +191,9 @@ const AboutMe = () => {
                 </Fade>
 
                 <hr />
-
-                <Fade bottom >
-                    <section className="about-section" >
-                        <div className="row">
-                            <div className="col-md-4">
-                                <p className="fw-bold">
-                                    <FontAwesomeIcon icon={faBriefcase} /> Work Experience
-                                </p>
-                            </div>
-
-                            <div className="col-md">
-
-                                <p className="float-end">MAR 2019 - AUG 2020</p>
-                                <p className="fw-bold my-0">1. Search Engine Optimization (SEO)</p>
-                                <p className="text-secondary">LeisFita.com | Dhaka</p>
-
-                                <ul>
-                                    <li className="mt-2">Optimize Page for Search Engines.</li>
-                                    <li className="mt-2">Keyword Research and Increase Organic Traffic.</li>
-                                    <li className="mt-2">Create marketing strategy, planning and execution.</li>
-                                </ul>
-                                <p>🏆 <span className="fw-bold">Achievements</span></p>
-                                <ul>
-                                    <li className="mt-2">Increase 2x online sales during the time of 2020 covid-19 lockdown.</li>
-                                    <li className="mt-2">Ranked on #1 website results in Google by ‘pearl necklace’ keywords in Bangladesh.</li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </section>
-                </Fade>
                 <hr />
 
-                {/* <section className="about-section" >
-                    <div className="row">
-                        <div className="col-md-4">
-                            <h2>Education</h2>
-                        </div>
 
-                        <div className="col-md-8">
-                            <ul>
-                                <li className="mt-2">Bachelor's degree in Business Information Technology/ University of Greenwich</li>
-                                <li className="mt-2">Higher Secondary School Certificate/ Ideal College, Dhaka, Bangladesh.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-
-                <hr /> */}
                 <Fade bottom>
                     <section className="about-section" >
                         <div className="row">
@@ -324,6 +212,7 @@ const AboutMe = () => {
                         </div>
                     </section>
                 </Fade>
+                <hr />
 
             </div>
 

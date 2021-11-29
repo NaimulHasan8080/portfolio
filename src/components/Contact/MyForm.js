@@ -15,10 +15,10 @@ const MyForm = () => {
         event.preventDefault();
 
         emailjs.sendForm(
-            'service_rwhshis',
-            'template_balengn',
+            'service_cyk63rk',
+            'template_o9s0ouj',
             event.target,
-            'user_MvFO6nIJvOd5zMjvsk7Ma'
+            'user_4BsMgnd07GZNTLHodqpw0'
         ).then(result => {
             console.log('contact us result', result);
 
@@ -64,7 +64,7 @@ const MyForm = () => {
                 </div>
 
                 <div className="form-floating mb-3 form-group">
-                    <input type="text" name="user_email" id="user_email" className="form-control" placeholder="Your email address " required />
+                    <input type="text" name="email" id="user_email" className="form-control" placeholder="Your email address " required />
                     <label>Your email</label>
                 </div>
 
