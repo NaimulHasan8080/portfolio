@@ -6,15 +6,14 @@ import './Header.css';
 
 const Header = () => {
 
-
-    const resumeUrl = 'https://drive.google.com/file/d/1GIP_G1_AamlOOgLEPibqeSUPAHW0W8iP/view?usp=sharing'
+    const resumeUrl = 'https://drive.google.com/file/d/1EJ4XLeE-t089ADjsF6fkHA9y_AvSVU9R/view'
 
     return (
 
         <div>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-4">
                 <div class="container text-uppercase">
-                    <Link to="/home" className="navbar-brand fw-bold cool-link">Taib Islam</Link>
+                    <Link to="/home" className="navbar-brand fw-bold cool-link">NADIMUR RAHMAN</Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

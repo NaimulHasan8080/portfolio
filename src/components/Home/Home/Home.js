@@ -6,7 +6,7 @@ import HeroSection from '../HeroSection/HeroSection';
 const Home = () => {
 
     return (
-        <div className="container">
+        <div >
             <HeroSection></HeroSection>
             <Projects></Projects>
         </div>
