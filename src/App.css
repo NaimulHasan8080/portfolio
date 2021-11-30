@@ -8,14 +8,12 @@ body{
   background-color: #E5E7EB;
 }
 
-
-
 .custom-red-color{
-  color: #dc2626;
+  color: goldenrod;
 
 }
 .my-border-bottom{
-  border-bottom: 2px solid #dc2626;
+  border-bottom: 2px solid greenyellow;
 
 }
 
@@ -24,7 +22,7 @@ body{
 }
 
 .cool-link:hover{
-  color: #dc2626 !important;
+  color: goldenrod !important;
   transition: 0.2s;
 }
 
@@ -40,7 +38,7 @@ body{
   display: block;
   width: 0;
   height: 2px;
-  background: #dc2626;
+  background: greenyellow;
   transition: width .4s;
 }
 

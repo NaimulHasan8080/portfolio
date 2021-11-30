@@ -3,6 +3,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe, faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendar } from '@fortawesome/free-regular-svg-icons';
+import { Link } from 'react-router-dom';
 
 const SingleAllProject = ({ p }) => {
 
@@ -47,9 +48,11 @@ const SingleAllProject = ({ p }) => {
 
                 <div className="card-footer pb-4 bg-white border-top-0 text-center">
 
-                    <button className="btn btn-sm btn-outline-dark m-1">
-                        <FontAwesomeIcon /> <i class="fas fa-info-circle"></i> Details
-                    </button>
+                    <Link to={`/projectDetails/${p.name}`}>
+                        <button className="btn btn-sm btn-outline-dark m-1">
+                            <FontAwesomeIcon /> <i class="fas fa-info-circle"></i> Details
+                        </button>
+                    </Link>
 
                     <a href={p.live} target="_blank" rel="noreferrer" className="btn btn-sm btn-outline-dark m-1" type="button">
                         <FontAwesomeIcon icon={faGlobe} /> Live Website

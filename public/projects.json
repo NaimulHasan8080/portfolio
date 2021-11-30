@@ -1,6 +1,9 @@
 [
     {
         "image": "https://i.ibb.co/M2x4RjJ/as-12.png",
+        "image1": "https://i.ibb.co/d6Sfwgy/dialz1.png",
+        "image2": "https://i.ibb.co/Y8zrV6L/dialz2.png",
+        "image3": "https://i.ibb.co/GMdGjK4/dialz3.png",
         "name": "Dialz Watch",
         "start": "Nov 2021",
         "end": "Nov 2021",
@@ -12,6 +15,9 @@
     },
     {
         "image": "https://i.ibb.co/0sRzPgM/as-11.png",
+        "image1": "https://i.ibb.co/sv5d1Rn/foodmood1.png",
+        "image2": "https://i.ibb.co/6gkc9xy/foodmood2.png",
+        "image3": "https://i.ibb.co/n8Pb1Ty/foodmood3.png",
         "name": "FoodMood",
         "start": "Oct 2020",
         "end": "Oct 2020",
@@ -23,6 +29,9 @@
     },
     {
         "image": "https://i.ibb.co/x3sQ8PN/as-10.png",
+        "image1": "https://i.ibb.co/YTZGjJh/dantal2.png",
+        "image2": "https://i.ibb.co/3TTC2pj/dantal3.png",
+        "image3": "https://i.ibb.co/3kx8pFh/dantal1.png",
         "name": "Predent Dental",
         "start": "sep 2021",
         "end": "sep 2021",
@@ -33,6 +42,9 @@
     },
     {
         "image": "https://i.ibb.co/D8CR19r/as-9.png",
+        "image1": "https://i.ibb.co/KqQwnhv/academy3.png",
+        "image2": "https://i.ibb.co/R6sBv1p/academy1.png",
+        "image3": "https://i.ibb.co/5nr6WpQ/academy2.png",
         "name": "Naimul Sport Academy",
         "start": "Oct 2020",
         "end": "Oct 2020",
@@ -43,6 +55,9 @@
     },
     {
         "image": "https://i.ibb.co/vhyBgcm/as-8.png",
+        "image1": "https://i.ibb.co/Z67pKXd/minister3.png",
+        "image2": " https://i.ibb.co/4YN4xR3/minister1.png",
+        "image3": "https://i.ibb.co/VwZ9dkf/minister2.png",
         "name": "Minister of Bangladesh",
         "start": "Oct 2021",
         "end": "Oct 2021",
@@ -53,6 +68,9 @@
     },
     {
         "image": "https://i.ibb.co/zZzSxf6/as-6.png",
+        "image1": "https://i.ibb.co/gmyzC3M/football2.png",
+        "image2": " https://i.ibb.co/4YN4xR3/minister1.png",
+        "image3": "https://i.ibb.co/rkw09rR/football3.png",
         "name": "Responsive Football",
         "start": "Aug 2021",
         "end": "Aug 2021",

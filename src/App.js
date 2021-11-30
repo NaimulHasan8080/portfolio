@@ -14,6 +14,7 @@ import Blog from './components/Blog/Blog';
 import AllProjects from './components/AllProjects/AllProjects';
 import AboutMe from './components/AboutMe/AboutMe';
 import Contact from './components/Contact/Contact';
+import ProjectDetails from './components/Home/Projects/ProjectDetails';
 
 function App() {
   return (
@@ -33,7 +34,9 @@ function App() {
             <Route path="/projects">
               <AllProjects></AllProjects>
             </Route>
-
+            <Route exact path="/projectDetails/:name">
+              <ProjectDetails></ProjectDetails>
+            </Route>
             <Route path="/blog">
               <Blog></Blog>
             </Route>
