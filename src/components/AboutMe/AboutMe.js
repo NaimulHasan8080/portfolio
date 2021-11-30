@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
+import Roll from 'react-reveal/Roll';
 import { faFileCode, faIdCard } from '@fortawesome/free-regular-svg-icons';
 import Flip from 'react-reveal/Flip';
 
@@ -10,48 +12,36 @@ import Flip from 'react-reveal/Flip';
 const AboutMe = () => {
     return (
 
-        <div className="container mb-5">
+        <div className="mb-5 bg-dark">
             <div className="pb-5 pt-3">
                 <h3>
                     <Flip top cascade>
-                        <span className="pb-2 custom-red-color my-border-bottom">
+                        <span className="pb-2 text-white my-border-bottom">
                             <FontAwesomeIcon icon={faUser} /> About Me
                         </span>
                     </Flip>
                 </h3>
             </div>
 
-            <div className="container about-container">
-
-
-
-                {/* <div className=" container row" data-aos="fade-down">
-                    <div className="col- py-2">
-                        <a class="btn btnSubmit mr-2" href="" target="_blank">
-                            <FontAwesomeIcon icon={faCloudDownloadAlt} /><span className="ml-2">DOWNLOAD RESUME</span>
-                        </a>
-                    </div>
-                    <div className="col- py-2">
-                        <a class="btn CustomGreenBtn" href="/contact" target="_blank">
-                            <FontAwesomeIcon icon={faPaperPlane} /><span className="ml-2">CONTACT ME</span>
-                        </a>
-                    </div>
-                </div> */}
+            <div className="container about-container text-white">
 
                 <Fade bottom >
                     <section>
                         <div className="row">
                             <div className="col-md-4">
-                                <p className="fw-bold">
-                                    <FontAwesomeIcon icon={faIdCard} /> About Me
-                                </p>
+                                <Zoom>
+                                    <p className="fw-bold">
+                                        <FontAwesomeIcon icon={faIdCard} /> About Me
+                                    </p>
+                                </Zoom>
                             </div>
                             <div className="col-md-8 ">
-                                {/* <p>Front-End Web Developer using React.js with a decent knowledge of the backend technology like Node.js, Express.js, MongoDB, REST-API, JSON, Firebase, Debugging and more.</p> */}
 
-                                <p style={{ textAlign: 'justify' }}>
-                                    I passed Inter and got admission in Redyan College in BBA with Accounting. After studying there for 1 year, due to family crisis, I went back to Saudi Arabia for work.From there I come to the country on vacation before Corona but I can't go for Corona anymore. Then on the advice of cousin <a target="_blank" style={{ textDecoration: 'none' }} href="https://www.facebook.com/ikamal.me"><span className="text-bold fs-5">Kamal</span></a> I learned web development from programming hero.
-                                </p>
+                                <Zoom top>
+                                    <p style={{ textAlign: 'justify' }}>
+                                        I passed HSC and got admission in Chandina Redwan Ahmed University College in BBA with Accounting. After studying there for 1 year, due to family crisis, I went back to Saudi Arabia for work.From there I come to the country on vacation before Corona but I can't go for Corona anymore. Then on the advice of cousin <a target="_blank" style={{ textDecoration: 'none' }} href="https://kamalhosen.xyz/"><span className="text-bold fs-5">Kamal</span></a> I learned web development from programming hero.
+                                    </p>
+                                </Zoom>
                             </div>
                         </div>
                     </section>
@@ -70,26 +60,28 @@ const AboutMe = () => {
                             </div>
 
                             <div className="col-md-8">
-                                <div>
-                                    <p className="fw-bold my-0">Rampur High School</p>
-                                    <p>Secondary School Certificate (SSC)</p>
-                                    <ul>
-                                        <li>Passing Year: 2013 </li>
-                                        <li>Result: GPA 4.94 </li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <p className="fw-bold my-0">Cantonment College, Cumilla</p>
-                                    <p> Higher Secondary School Certificate (HSC)</p>
-                                    <ul>
-                                        <li>Passing Year: 2015 </li>
-                                        <li>Result: GPA 4.25 </li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <p className="fw-bold my-0">Chandina Redwan Ahmed University College</p>
-                                    <p>BBA (Accounting) </p>
-                                </div>
+                                <Roll top>
+                                    <div>
+                                        <p className="fw-bold my-0">Rampur High School</p>
+                                        <p>Secondary School Certificate (SSC)</p>
+                                        <ul>
+                                            <li>Passing Year: 2013 </li>
+                                            <li>Result: GPA 4.94 </li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <p className="fw-bold my-0">Cantonment College, Cumilla</p>
+                                        <p> Higher Secondary School Certificate (HSC)</p>
+                                        <ul>
+                                            <li>Passing Year: 2015 </li>
+                                            <li>Result: GPA 4.25 </li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <p className="fw-bold my-0">Chandina Redwan Ahmed University College</p>
+                                        <p>BBA (Accounting) </p>
+                                    </div>
+                                </Roll>
                             </div>
                         </div>
                     </section>

@@ -27,7 +27,7 @@ const Projects = () => {
 
 
     return (
-        <div className="mt-5">
+        <div className="mt-5 bg-dark">
             {
                 isLoading ?
 
