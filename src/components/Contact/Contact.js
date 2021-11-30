@@ -7,8 +7,8 @@ import Flip from 'react-reveal/Flip';
 
 const Contact = () => {
     return (
-        <div className="container">
-            <div className="pb-5 pt-3">
+        <div className=" bg-dark text-secondary">
+            <div className="pb-5 p-3">
                 <h3>
                     <Flip top cascade>
                         <span className="pb-2 custom-red-color my-border-bottom">
@@ -18,12 +18,12 @@ const Contact = () => {
                 </h3>
             </div>
 
-            <div className="row">
+            <div className="row text-center p-5">
                 <div className="col-md-6">
-                    <p className="mb-3 fw-bold">Please send your text here</p>
+                    <p className="mb-3 fw-bold text-white">Please send your text here</p>
                     <MyForm></MyForm>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 text-white">
                     <p className="fw-bold">You also find me</p>
                     <hr />
 
@@ -36,7 +36,7 @@ const Contact = () => {
                             <a href="https://www.linkedin.com/in/nadimurrahman8080/" rel="noreferrer" target="_blank" className="btn btn-linkedIn me-2 ">
                                 <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
                             </a>
-                            <a href="https://github.com/NaimulHasan8080" rel="noreferrer" target="_blank" className="btn btn-github me-2">
+                            <a href="https://github.com/NaimulHasan8080" rel="noreferrer" target="_blank" className="btn btn-success me-2">
                                 <FontAwesomeIcon icon={faGithub} /> GitHub
                             </a>
                             <a href="https://www.facebook.com/profile.php?id=100008151618032" rel="noreferrer" target="_blank" className="btn btn-twitter me-2">

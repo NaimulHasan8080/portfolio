@@ -59,7 +59,7 @@ const MyForm = () => {
         <div>
             <form onSubmit={handleFormSubmit}>
                 <div className="form-floating mb-3 form-group">
-                    <input type="text" name="name" id="name" className="form-control" placeholder="Your Name " required />
+                    <input placeholder="Your Name " type="text" name="name" id="name" className="form-control" required />
                     <label>Your name</label>
                 </div>
 
@@ -77,7 +77,7 @@ const MyForm = () => {
                     <textarea type="text" name="message" className="form-control" id="your-message" cols="30" rows="10" placeholder="Your message" required></textarea>
                     <label className="text-secondary">Your message</label>
                 </div>
-                <button className="btn btn-dark rounded-pill" type="submit">
+                <button className="btn btn-success rounded-pill" type="submit">
                     <FontAwesomeIcon icon={faPaperPlane} /> Send
                 </button>
             </form>

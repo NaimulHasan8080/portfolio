@@ -31,12 +31,12 @@ const HeroSection = () => {
                             <span className="language px-2 py-1 rounded me-2">NodeJS</span>
                         </p>
 
-                        <div>
-                            <a href="https://drive.google.com/uc?export=download&id=1EJ4XLeE-t089ADjsF6fkHA9y_AvSVU9R" type="button" className="btn btnDwnResume me-2 text-center">
+                        <div className="text-center">
+                            <a href="https://drive.google.com/uc?export=download&id=1EJ4XLeE-t089ADjsF6fkHA9y_AvSVU9R" type="button" className="btn btnDwnResume me-2 ">
                                 <FontAwesomeIcon icon={faCloudDownloadAlt} /> Download Resume
                             </a>
                             <Link to='/contact'>
-                                <button className="btn btnContactMe text-center">
+                                <button className="btn btnContactMe ">
                                     <FontAwesomeIcon icon={faPaperPlane} /> Contact Me
                                 </button>
                             </Link>

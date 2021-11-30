@@ -45,18 +45,19 @@ const SingleAllProject = ({ p }) => {
                     </p>
                 </div>
 
+                <div className="card-footer pb-4 bg-white border-top-0 text-center">
 
+                    <button className="btn btn-sm btn-outline-dark m-1">
+                        <FontAwesomeIcon /> <i class="fas fa-info-circle"></i> Details
+                    </button>
 
-
-                <div className="card-footer pb-4 bg-white border-top-0 ">
-
-                    <a href={p.live} target="_blank" rel="noreferrer" className="btn btn-sm btn-outline-dark me-3" type="button">
+                    <a href={p.live} target="_blank" rel="noreferrer" className="btn btn-sm btn-outline-dark m-1" type="button">
                         <FontAwesomeIcon icon={faGlobe} /> Live Website
                     </a>
 
 
                     <a href={p.github} target="_blank" rel="noreferrer" className="">
-                        <button className="btn btn-sm btn-outline-dark me-3">
+                        <button className="btn btn-sm btn-outline-dark m-1">
                             <FontAwesomeIcon icon={faGithub} /> Client GitHub
                         </button>
                     </a>
@@ -65,7 +66,7 @@ const SingleAllProject = ({ p }) => {
                         p.server &&
 
                         <a href={p.server} target="_blank" rel="noreferrer" className="">
-                            <button className="btn btn-sm btn-outline-dark mt-3">
+                            <button className="btn btn-sm btn-outline-dark m-3">
                                 <FontAwesomeIcon icon={faGithub} /> Server GitHub
                             </button>
                         </a>
