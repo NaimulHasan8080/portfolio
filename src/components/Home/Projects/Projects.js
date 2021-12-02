@@ -38,7 +38,7 @@ const Projects = () => {
 
                     <div>
                         <Roll bottom >
-                            <h4 className="text-info fw-bold py-3 text-center">My Projects</h4>
+                            <h1 className="text-danger fw-bolder py-3 text-center">My Projects</h1>
                         </Roll>
 
                         <Fade bottom>
