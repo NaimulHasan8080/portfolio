@@ -25,7 +25,7 @@ const AllProjects = () => {
 
 
     return (
-        <div className="container">
+        <div style={{ backgroundColor: 'rgb(18 49 50)' }} className="p-3">
             <div className="pb-5 pt-3">
                 <h3>
                     <Flip top cascade>

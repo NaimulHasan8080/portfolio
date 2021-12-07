@@ -12,7 +12,7 @@ import Flip from 'react-reveal/Flip';
 const AboutMe = () => {
     return (
 
-        <div className="mb-5 bg-dark">
+        <div style={{ backgroundColor: 'rgb(18 49 50)' }} className="mb-5">
             <div className="pb-5 pt-3">
                 <h3>
                     <Flip top cascade>

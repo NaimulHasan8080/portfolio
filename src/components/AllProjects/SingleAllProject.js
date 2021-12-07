@@ -13,31 +13,31 @@ const SingleAllProject = ({ p }) => {
 
     return (
 
-        <div class="col">
-            <div class="card h-100 shadow-sm project">
+        <div className="col">
+            <div className="card h-100 shadow-sm project ">
 
-                <img src={p.image} class="card-img-top" alt="..." />
+                <img src={p.image} className="card-img-top" alt="..." />
 
-                <div class="card-body">
+                <div className="card-body ">
                     <a href={p.live} target="_blank" rel="noreferrer" className="hyper-link">
-                        <h5 class="card-title project-name">{p.name}</h5>
+                        <h5 className="card-title project-name">{p.name}</h5>
                     </a>
                     <p className="text-secondary">
                         <small>
                             <FontAwesomeIcon icon={faCalendar} /> {p.start} <FontAwesomeIcon icon={faLongArrowAltRight} />  {p.end}
                         </small>
                     </p>
-                    <p class="card-text">
+                    <p className="card-text">
                         {p.details.slice(0, 80)}
                     </p>
-                    <p class="card-text lh-lg">
+                    <p className="card-text lh-lg">
                         {
                             techSplit.map(singleTech => (
                                 <span
-                                    style={{
+                                    /* style={{
                                         backgroundColor: '#E5E7EB'
-                                    }}
-                                    className="px-2 py-1 rounded me-2 "
+                                    }} */
+                                    className="px-2 py-1 rounded me-2 bg-info text-white"
                                 >
                                     {singleTech}{" "}
                                 </span>
@@ -50,7 +50,7 @@ const SingleAllProject = ({ p }) => {
 
                     <Link to={`/projectDetails/${p.name}`}>
                         <button className="btn btn-sm btn-outline-dark m-1">
-                            <FontAwesomeIcon /> <i class="fas fa-info-circle"></i> Details
+                            <FontAwesomeIcon /> <i className="fas fa-info-circle"></i> Details
                         </button>
                     </Link>
 

@@ -28,10 +28,10 @@ const SingleProject = ({ p }) => {
                         {
                             techSplit.map(singleTech => (
                                 <span
-                                    style={{
+                                    /* style={{
                                         backgroundColor: '#E5E7EB'
-                                    }}
-                                    className="px-2 py-1 rounded me-2 "
+                                    }} */
+                                    className="px-2 py-1 rounded me-2 bg-info text-white"
                                 >
                                     {singleTech}{" "}
                                 </span>

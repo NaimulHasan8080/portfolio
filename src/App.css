@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans&family=Lobster&display=swap");
 
 body{
   font-family: 'Open Sans', sans-serif;
@@ -24,6 +26,14 @@ body{
 .cool-link:hover{
   color: goldenrod !important;
   transition: 0.2s;
+}
+/* typed style */
+.typed-text {
+  text-shadow: 2px 3px 6px rgb(0, 0, 0);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  color: var(--primary-white);
+  color: #ffb005;
 }
 
 /* navbar on hove style start*/
@@ -77,7 +87,7 @@ body{
 }
 
 .project:hover .project-name{
-  color: #dc2626;
+  color: goldenrod;
   text-decoration: underline;
 }
 

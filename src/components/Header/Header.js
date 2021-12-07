@@ -11,15 +11,21 @@ const Header = () => {
     return (
 
         <div>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-4">
+            <nav style={{ backgroundColor: 'rgb(18 49 50)' }} class="navbar navbar-expand-lg navbar-dark  py-4">
                 <div class="container text-uppercase">
-                    <Link to="/home" className="navbar-brand fw-bold cool-link">NADIMUR RAHMAN</Link>
+                    <Link to="/home" className="navbar-brand fw-bold cool-link">NADIMUR <span className="text-danger">RAHMAN</span></Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav  ms-auto">
 
+                            <li class="nav-item">
+                                <Link to={'/home'} className="nav-link cool-link">
+                                    Home
+
+                                </Link>
+                            </li>
                             <li class="nav-item">
                                 <Link to={'/projects'} className="nav-link cool-link">
                                     <FontAwesomeIcon icon={faStaylinked} /> My Projects

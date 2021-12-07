@@ -7,7 +7,7 @@ import Flip from 'react-reveal/Flip';
 
 const Contact = () => {
     return (
-        <div className=" bg-dark text-secondary">
+        <div style={{ backgroundColor: 'rgb(18 49 50)' }} className="  text-secondary">
             <div className="pb-5 p-3">
                 <h3>
                     <Flip top cascade>

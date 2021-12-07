@@ -12,9 +12,9 @@ const Footer = () => {
 
 
     return (
-        <div className="">
-            <footer className="mt-5 bg-dark">
-                <div className="footer-top ">
+        <div >
+            <footer className="mt-5">
+                <div style={{ backgroundColor: 'rgb(18 49 50)' }} className="footer-top ">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-4 col-sm-6 text-center">
