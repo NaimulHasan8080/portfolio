@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans&family=Lobster&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Josefin+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Josefin+Sans:ital@1&family=Poppins&display=swap');
 
 body{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   background-color: white;
+  font-size: 20px;
 }
 
 .language{
@@ -34,6 +37,23 @@ body{
   font-size: 2rem;
   color: var(--primary-white);
   color: #ffb005;
+}
+
+.header-title{
+  font-family: 'Jacques Francois Shadow', "cursive";
+  color: rgb(226, 93, 93);
+}
+
+.my-pic{
+  filter: grayscale(100%);
+}
+.my-pic{
+  filter: grayscale(0%);
+}
+.my-pic:hover{
+  filter: grayscale(50%);
+  transition: linear 1s;
+  transform: translate(x);
 }
 
 /* navbar on hove style start*/
@@ -168,4 +188,20 @@ body{
   background-color: #1DA1F2;
   color: white;
   box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+}
+
+/* skill logo  */
+.logo {
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+
+}
+
+.tec-icon {
+  transition: 3s;
+}
+
+.logo:hover .tec-icon {
+  transform: rotate(720deg);
+  background-color: red;
+  border-radius: 10px;
 }

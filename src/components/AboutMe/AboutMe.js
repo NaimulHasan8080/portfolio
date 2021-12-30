@@ -8,7 +8,58 @@ import Roll from 'react-reveal/Roll';
 import { faFileCode, faIdCard } from '@fortawesome/free-regular-svg-icons';
 import Flip from 'react-reveal/Flip';
 
+const technology = [
+    {
+        logo: "https://iconape.com/wp-content/files/rj/371212/svg/371212.svg",
+        name: "JavaScript"
+    },
+    {
+        logo: "https://i.ibb.co/pvQ74RV/react-logo.png",
+        name: "React JS"
+    },
+    {
+        logo: "https://iconape.com/wp-content/png_logo_vector/node-js.png",
+        name: "Node JS"
+    },
+    {
+        logo: "https://iconape.com/wp-content/png_logo_vector/react-router.png",
+        name: "React-Router"
+    },
+    {
+        logo: "https://iconape.com/wp-content/png_logo_vector/html5-with-wordmark-color-logo.png",
+        name: "HTML5"
+    },
+    {
+        logo: "https://iconape.com/wp-content/png_logo_vector/css3-logo.png",
+        name: "CSS3"
+    },
+    {
+        logo: "https://iconape.com/wp-content/files/ej/371250/svg/371250.svg",
+        name: "Material UI"
+    },
+    {
+        logo: "https://iconape.com/wp-content/files/vp/370638/svg/bootstrap-logo-icon-png-svg.png",
+        name: "Bootstrap"
+    },
+    {
+        logo: "https://iconape.com/wp-content/files/yl/370873/svg/370873.svg",
+        name: "Firebase"
+    },
+    {
+        logo: "https://iconape.com/wp-content/png_logo_vector/cib-mongodb.png",
+        name: "MongoDB"
+    },
+    {
+        logo: "https://iconape.com/wp-content/files/xn/371066/svg/371066.svg",
+        name: "Heroku"
+    },
+    {
+        logo: "https://iconape.com/wp-content/png_logo_vector/github-circle-coreui-icons-v1-0-0.png",
+        name: "Github"
+    },
 
+
+]
 const AboutMe = () => {
     return (
 
@@ -89,73 +140,25 @@ const AboutMe = () => {
 
                 <hr />
 
-                <Fade bottom >
-                    <section className="about-section" >
-                        <div className="row">
-                            <div className="col-md-4 ">
-                                <p className="fw-bold">
-                                    <FontAwesomeIcon icon={faCode} /> Skills
-                                </p>
+                <section>
+                    <div>
+
+                        {/*...................... Uses  Technology .................*/}
+                        <div className="container my-5">
+                            <h1 className="text-center text-danger my-5">MY SKILLS</h1>
+                            <div className="d-flex flex-wrap justify-content-center">
+                                {technology.map(logo => (
+                                    <div key={logo.name} className="p-3 m-lg-5 m-3 logo" >
+                                        <img width="80px" className='tec-icon' height="80px" src={logo.logo} alt="" />
+                                        <h6 className="text-center text-gray mt-2">{logo.name}</h6>
+                                    </div>
+                                ))}
                             </div>
-                            <div className="col-md-8 ">
-                                {/* 1st row */}
-                                <div className="row">
-                                    <div className="col flex-column trans-card pb-3">
-                                        <i className="devicon-javascript-plain colored display-4"></i>
-                                        <p className="fw-bold">JavaScript</p>
-                                    </div>
-                                    <div className="col flex-column trans-card pb-3">
-                                        <i className="devicon-react-original colored display-4"></i>
-                                        <p className="fw-bold">React</p>
-                                    </div>
-                                    <div className="col flex-column trans-card pb-3">
-                                        <i className="devicon-nodejs-plain colored display-4"></i>
-                                        <p className="fw-bold">Node.js</p>
-                                    </div>
-                                    <div className="col flex-column trans-card pb-3">
-                                        <i className="devicon-express-original colored display-4"></i>
-                                        <p className="fw-bold">Express.js</p>
-                                    </div>
-                                    <div className="col flex-column trans-card pb-3">
-                                        <i className="devicon-mongodb-plain colored display-4"></i>
-                                        <p className="fw-bold">MongoDB</p>
-                                    </div>
-
-                                </div>
-
-
-                                <div className="row">
-                                    <div className="col flex-column trans-card pb-3">
-                                        <i className="devicon-bootstrap-plain colored display-4"></i>
-                                        <p className="fw-bold">Bootstrap 5</p>
-                                    </div>
-
-                                    <div className="col flex-column trans-card pb-3">
-                                        <i className="devicon-html5-plain-wordmark colored display-4"></i>
-                                        <p className="fw-bold">HTML5</p>
-                                    </div>
-                                    <div className="col flex-column trans-card pb-3">
-                                        <i className="devicon-css3-plain-wordmark colored display-4"></i>
-                                        <p className="fw-bold">CSS3</p>
-                                    </div>
-                                    <div className="col flex-column trans-card pb-3">
-                                        <i className="devicon-tailwindcss-plain colored display-4"></i>
-                                        <p className="fw-bold">Tailwind CSS</p>
-                                    </div>
-                                    <div className="col flex-column trans-card pb-3">
-                                        <i className="devicon-materialui-plain colored display-4"></i>
-                                        <p className="fw-bold">Material UI</p>
-                                    </div>
-
-                                    <div className="col flex-column trans-card pb-3">
-                                        <i className="devicon-git-plain-wordmark colored display-4"></i>
-                                        <p className="fw-bold">Git</p>
-                                    </div>
-                                </div>
-                            </div>
+                            <hr className="my-5" />
                         </div>
-                    </section>
-                </Fade>
+
+                    </div>
+                </section>
 
                 <hr />
 

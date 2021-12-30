@@ -6,14 +6,17 @@ import './Header.css';
 
 const Header = () => {
 
-    const resumeUrl = 'https://drive.google.com/file/d/1EJ4XLeE-t089ADjsF6fkHA9y_AvSVU9R/view'
+    const resumeUrl = 'https://drive.google.com/file/d/1r0oSXEOuSXz2U6jlQkBtW1UIyFUZi8gM/view?usp=sharing'
 
     return (
 
         <div>
             <nav style={{ backgroundColor: 'rgb(18 49 50)' }} class="navbar navbar-expand-lg navbar-dark  py-4">
-                <div class="container text-uppercase">
-                    <Link to="/home" className="navbar-brand fw-bold cool-link">NADIMUR <span className="text-danger">RAHMAN</span></Link>
+                <div class="container text-uppercase ">
+                    <Link style={{
+                        fontFamily: 'Jacques Francois Shadow',
+                        color: 'rgb(226, 93, 93)'
+                    }} to="/home" className="navbar-brand fw-bold cool-link header-title">NADIMUR RAHMAN</Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -57,8 +60,8 @@ const Header = () => {
                         </ul>
                     </div>
                 </div>
-            </nav>
-        </div>
+            </nav >
+        </div >
     );
 };
 

@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div >
             <HeroSection></HeroSection>
-            <Projects></Projects>
+            {/* <Projects></Projects> */}
         </div>
     );
 };

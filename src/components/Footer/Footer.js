@@ -14,12 +14,12 @@ const Footer = () => {
     return (
         <div >
             <footer className="mt-5">
-                <div style={{ backgroundColor: 'rgb(18 49 50)' }} className="footer-top ">
+                <div style={{ backgroundColor: 'rgb(18 49 50)', fontSize: '20px' }} className="footer-top ">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-4 col-sm-6 text-center">
-                                <div className="address">
-                                    <h3 className="text-uppercase fw-bold text-white">Nadimur Rahman</h3>
+                                <div style={{ fontSize: '20px' }} >
+                                    <h3 className="text-uppercase fw-bold  header-title">Nadimur Rahman</h3>
                                     <p className="mb-4 mt-4">
                                         <FontAwesomeIcon icon={faMapMarkerAlt} /> Maynamoti-3521,Cumilla, Bangladesh.
                                     </p>
@@ -49,9 +49,9 @@ const Footer = () => {
                                 <h4 className="text-uppercase fw-bold">Social Links</h4>
 
                                 <div className="social-links mt-3">
-                                    <a href="https://www.linkedin.com/in/nadimurrahman8080/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
-                                    <a href="https://github.com/NaimulHasan8080" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
-                                    <a href="https://www.facebook.com/profile.php?id=100008151618032" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
+                                    <a title="LinkedIn" href="https://www.linkedin.com/in/nadimurrahman8080/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                                    <a title="Github" href="https://github.com/NaimulHasan8080" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
+                                    <a title="Facebook" href="https://www.facebook.com/profile.php?id=100008151618032" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
                                 </div>
                             </div>
                         </div>
